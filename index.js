@@ -82,7 +82,7 @@ app.put('/expenses/:id', async (req, res) =>{
 
 
 //
-mongoose.connect('mongodb+srv://MarvinsAPI:JustdoitAPI1.@mongodb.rexh3de.mongodb.net/Node_API?retryWrites=true&w=majority&appName=MongoDB')
+mongoose.connect('mongodb+srv://MarvinsAPI:<PASSWORD>.@mongodb.rexh3de.mongodb.net/Node_API?retryWrites=true&w=majority&appName=MongoDB')
     .then(() => {
         console.log('Connected to MongoDB')
         PORT = 3000
